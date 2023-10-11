@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h5{
+  color:#4e544b;
+
+}
+strong{
+  color:#4e544b;
+}
+.img-portada{
+  display: flex;
+  width: 100vw; /* Asegura que la imagen sea responsive */
+  height: auto;
+}
+.img-logo{
+  display: flex;
+  width: 30%; /* Asegura que la imagen sea responsive */
+  height: auto;
+}
+.position-portada {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.position-logo {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+.Ajustar{
+  font-size: 4.5em;
+}
+.a-img{
+  font-size: 6em;
+}
+.hidden{
+  display: grid;
+  opacity: 0;
+  filter: blur(3px);
+  transform: translateY(100%);
+  transition: all 0.5s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+.position-absolute-img {
+  position: absolute;
+  display: flex;
+  width: 75%;
+  top: 0; /* Alinea la imagen verticalmente en el centro del contenedor padre */
+  right: 0; /* Alinea la imagen horizontalmente en el centro del contenedor padre */
+  z-index: 1;
+   /* Asegura que la imagen estÃ© en la parte superior de las otras columnas */
+}
+.img-absolute-incrustada {
+  width: 33%; /* Asegura que la imagen sea responsive */
+  height: auto;
+  box-shadow: -10px 10px 0px rgba(255, 255, 255, 1)
+}
+p{
+  margin: 0;
+}
+@media (max-width: 920px) {
+  .Ajustar{
+    font-size: 3em;
+  }
+  .position-absolute-img {
+    position: absolute;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 95%;
+    height: 40%;
+    z-index: 1;
+  }
+  .position-absolute{
+    position: absolute;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 95%;
+    height: 10%;
+    z-index: 1;
+  }
+  .position-absolute img{
+
+    height: 150%;
+  }
+
+  .position-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30%;
+  }
+  .img-logo{
+    display: flex;
+    width: 30%; /* Asegura que la imagen sea responsive */
+    height: auto;
+  }
+}

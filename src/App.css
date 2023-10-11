@@ -1,0 +1,35 @@
+.position-absolute {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  top: 50%; /* Alinea la imagen verticalmente en el centro del contenedor padre */
+  left: 50%; /* Alinea la imagen horizontalmente en el centro del contenedor padre */
+  transform: translate(-50%, -50%); /* Centra la imagen completamente */
+  z-index: 1; /* Asegura que la imagen esté en la parte superior de las otras columnas */
+}
+.img-absolute {
+  max-width: 50%; /* Asegura que la imagen sea responsive */
+  height: auto;
+
+  box-shadow: -10px -10px 0px rgba(255, 255, 255, 1)
+}
+.light{
+  font-weight: 300px;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+.imagen-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
