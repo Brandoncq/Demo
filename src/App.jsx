@@ -125,29 +125,29 @@ function App() {
         <div className="row p-5 m-0">
         </div>
           <div className="row p-5 m-0 d-flex justify-content-center">
-            <div className="col-lg-8 col-6 p-0 hidden" style={{ color: "#656d5f", textAlign: "right" }}>
+            <div className="col-lg-8 col-6 p-0 hidden p-1" style={{ color: "#656d5f", textAlign: "right" }}>
               <h6><strong>AXA</strong></h6>
               <p>Búsqueda e Implementación 
-                <br></br>de tiendas para Promotores</p>
+              <br></br>de tiendas para Promotores</p>
             </div>
-            <div className="col-lg-8 col-6 p-0 hidden" style={{ color: "#656d5f", textAlign: "right" }}>
+            <div className="col-lg-8 col-6 p-0 hidden p-1" style={{ color: "#656d5f", textAlign: "right" }}>
               <h6><strong>NEXTEL</strong></h6>
               <p>Proyecto ejecutivo de remodelación
-              <br></br>de Centros de Atención y Tiendas.
-              <br></br>Proyecto ejecutivo para nuevos
-              <br></br>Centros de Atención y Tiendas</p>
+              de Centros de Atención y Tiendas.</p>
+              <p>Proyecto ejecutivo para nuevos
+              Centros de Atención y Tiendas</p>
             </div>
-            <div className="col-lg-8 col-6 p-0 hidden" style={{ color: "#656d5f", textAlign: "right" }}>
+            <div className="col-lg-8 col-6 p-0 hidden p-1" style={{ color: "#656d5f", textAlign: "right" }}>
               <h6><strong>CINEMEX</strong></h6>
               <p>Proyecto de remodelación para cines existentes.
               <br></br>Proyecto de nuevos complejos.</p>
             </div>
-            <div className="col-lg-8 col-6 p-0 hidden" style={{ color: "#656d5f", textAlign: "right" }}>
+            <div className="col-lg-8 col-6 p-0 hidden p-1" style={{ color: "#656d5f", textAlign: "right" }}>
               <h6><strong>TOYOTA</strong></h6>
               <p>Propuesta para remodelación
               <br></br>de nuevas salas de espera</p>
             </div>
-            <div className="col-lg-8 col-6 p-0 hidden" style={{ color: "#656d5f", textAlign: "right" }}>
+            <div className="col-lg-8 col-6 p-0 hidden p-1" style={{ color: "#656d5f", textAlign: "right" }}>
               <h6><strong>WALTMART</strong></h6>
               <p>Proyectos para implementación de banco Walmart
               <br></br>Levantamientos Arquitectónicos

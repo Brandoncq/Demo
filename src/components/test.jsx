@@ -145,13 +145,13 @@ function Portada() {
         <div className="col-lg-6 col-12 p-0 m-0">
           <div className="row p-0 m-0">
             <hr style={{ border: '2px solid #000' }}/>
-            <div className="col-lg-8 col-6 hidden">
+            <div className="col-lg-8 col-6 hidden p-4">
               <p>Derecha</p>
-              <strong>Grupo Editorial Expansión/Comedor</strong>
+              <p><strong>Grupo Editorial Expansión/Comedor</strong></p>
               <p>800 m<sup>2</sup></p>
               <p>Constituyentes, CDMX, 2009</p>
             </div >
-            <div className="col-lg-4 col-6 d-flex aling-items-center justify-content-center">
+            <div className="col-lg-4 col-6 d-flex aling-items-end justify-content-center px-4">
               <img src={mini}  className="img-fluid" style={{ maxWidth: '100px', maxHeight: '100px' }}/>
             </div>
           </div>

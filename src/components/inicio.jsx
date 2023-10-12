@@ -28,25 +28,12 @@ function Inicio() {
     }, [elementosVisibles]);
     return (
       <div>
-        <div className="row m-0">
-          <div className="col-lg-5 col-12 p-0 m-0 position-portada">
-            <img
-              src={I_3}
-              className="img-fluid img-portada"
-              alt="Imagen Incrustada"
-            />
-            
+        <div className="bg-custom">
+          <div className="contenedor-logo">
+            <img src={mini}  className="img-logo"/>
           </div>
-          <div className="position-logo"> 
-            <div className="col-12 p-5 m-0 ">
-              <div className="col-12 p-5 m-0 d-flex aling-items-center justify-content-end">
-                <div className="col-12 p-5 m-0 d-flex aling-items-center justify-content-end">
-                  <img src={mini}  className="img-fluid img-logo" style={{ minWidth: '100px', minHeight: '100px' }}/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>       
+        </div>
+     
         <br></br>
         <div className="row m-0">
           <div className="col-lg-5 col-12 p-0 m-0">

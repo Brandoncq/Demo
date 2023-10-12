@@ -26,10 +26,20 @@ strong{
   width: 100vw; /* Asegura que la imagen sea responsive */
   height: auto;
 }
+.contenedor-logo{
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
 .img-logo{
   display: flex;
-  width: 30%; /* Asegura que la imagen sea responsive */
-  height: auto;
+  width: 30%; 
+  height: 50%; 
+
+  top: 50%;
+  left: 50%;
 }
 .position-portada {
   display: flex;
@@ -109,9 +119,15 @@ p{
     justify-content: center;
     height:30%;
   }
+
   .img-logo{
     display: flex;
-    width: 30%; /* Asegura que la imagen sea responsive */
-    height: auto;
+    width: 50%;
+    height: 30%;
+  }
+  .bg-custom{
+    background-image: linear-gradient(to top, rgba(224, 195, 252, 0.2) 0%, rgba(142, 197, 252, 0.2) 100%),url("./imagenes/RF/F-1.jpg");
+    background-position: 50% 75%;
+    height: 100vh;
   }
 }
